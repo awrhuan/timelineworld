@@ -15,8 +15,8 @@ Se preferir, você também pode baixar o código-fonte e rodar o aplicativo em s
 1. Clone o repositório do projeto em seu computador.
 2. Abra o terminal e navegue até o diretório do projeto.
 3. Inicie um servidor web local, por exemplo, usando o Python:
-  No Windows: digite python -m http.server ou python -m SimpleHTTPServer
-  No macOS ou Linux: digite python3 -m http.server ou python3 -m SimpleHTTPServer
+  -No Windows: digite python -m http.server ou python -m SimpleHTTPServer
+  -No macOS ou Linux: digite python3 -m http.server ou python3 -m SimpleHTTPServer
 4. Abra um navegador da web e navegue até http://localhost:8000 (ou outra porta que você tenha especificado).
 5. O aplicativo deve ser carregado corretamente agora.
 
