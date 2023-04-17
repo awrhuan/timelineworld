@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Linha do Tempo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+	<header>
+		<h1><i class="fas fa-history mt-3 mb-3"></i> Linha do Tempo da Humanidade</h1>
+		<div class="search-button-container d-flex justify-content-center align-items-center">
+			<div class="search-container input-group">
+				<input type="text" id="searchInput" class="form-control" placeholder="Digite um assunto...">
+				<div class="input-group-append">
+					<button id="searchButton" class="btn btn-outline-secondary" type="button">Pesquisar</button>
+				</div>
+			</div>
+			<div class="button-container ml-3">
+				<button id="sortButton" class="btn btn-outline-dark">
+					<i class="fas fa-sort mr-2"></i>Ordenar
+				</button>
+			</div>
+		</div>
+	</header>
+	<ul class="timeline"></ul>
+	<script src="main.js"></script>
+	<script src="custom.js"></script>
+  <script>
+  document.addEventListener('click', (event) => {
+    if (event.target.classList.contains('flag')) {
+      const title = event.target.textContent;
+      window.open(`https://www.google.com/search?q=${encodeURIComponent(title)}`, '_blank');
+    }
+  });
+  </script>
+</body>
+</html>
