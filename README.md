@@ -2,6 +2,8 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+![Exemplo de imagem](https://prnt.sc/VRxbl6f5DotQ)
+
 ## Descrição
 
 Este é um projeto de linha do tempo interativa que exibe eventos históricos importantes em ordem cronológica. Com ele, você pode pesquisar eventos por assunto e ordená-los por ordem cronológica.
