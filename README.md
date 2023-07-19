@@ -6,20 +6,6 @@
 
 Este é um projeto de linha do tempo interativa que exibe eventos históricos importantes em ordem cronológica. Com ele, você pode pesquisar eventos por assunto e ordená-los por ordem cronológica.
 
-## Como usar
-
-Você pode acessar o aplicativo online no seguinte endereço: https://timelineworld.herokuapp.com/
-
-Se preferir, você também pode baixar o código-fonte e rodar o aplicativo em seu próprio computador. Para isso, siga as instruções abaixo:
-
-1. Clone o repositório do projeto em seu computador.
-2. Abra o terminal e navegue até o diretório do projeto.
-3. Inicie um servidor web local, por exemplo, usando o Python:
-  -No Windows: digite python -m http.server ou python -m SimpleHTTPServer
-  -No macOS ou Linux: digite python3 -m http.server ou python3 -m SimpleHTTPServer
-4. Abra um navegador da web e navegue até http://localhost:8000 (ou outra porta que você tenha especificado).
-5. O aplicativo deve ser carregado corretamente agora.
-
 ## Funcionalidades
 
 - Pesquisar eventos por assunto.
